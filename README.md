@@ -2,6 +2,19 @@
 
 In this repository you can find the data files and queries to Wikidata used in the evaluation section for the publication [MillenniumDB: A Modular Architecture for Persistent Graph Database Systems](https://ahivx.org). These data and queries are the input for the script files that run the evaluation.
 
+## Table of contents
+
+- [Wikidata Benchmark](#wikidata-benchmark)
+  - [Wikidata data](#wikidata-data)
+  - [Wikidata Queries](#wikidata-queries)
+  - [Scripts](#scripts)
+    - [Running scripts](#running-scripts)
+    - [Data loading instructions for MilleniumDB](#data-loading-instructions-for-milleniumdb)
+    - [Data loading scripts for Jena](#data-loading-scripts-for-jena)
+    - [Virtuoso import instructions](#virtuoso-import-instructions)
+    - [Blazegraph import instructions](#blazegraph-import-instructions)
+    - [Neo4J import instructions](#neo4j-import-instructions)
+
 ## Wikidata data
 
 The data used in this evaluation are the [Wikidata Truthy](https://iccl.inf.tu-dresden.de/web/Wikidata_SPARQL_Logs/en) from 2021-06-23. We cleaned the data removing labels from nodes and those properties that do not belong to the Wikidata's vocabulary (i.e `http://www.wikidata.org/prop/direct/P`). The data is available to download from [Google Drive](https://drive.google.com/u/0/uc\?id\=1oDkrHT68_v7wfzTxjaRg40F7itb7tVEZ).
